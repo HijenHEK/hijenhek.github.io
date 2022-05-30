@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Russo+One&display=swap');
+
+
+
 * {
     padding: 0;
     margin: 0;
@@ -9,7 +13,8 @@ a {
     color: inherit;
 }
 
-ul , li {
+ul,
+li {
     list-style: none;
 }
 
@@ -22,7 +27,7 @@ ul , li {
 
 .centered {
     margin: 0 auto;
-    margin-top: 30%;
+    margin-top: 20%;
 }
 
 .content {
@@ -37,31 +42,58 @@ ul , li {
 }
 
 .brand h1 {
-    font-size: 6rem;
+    font-size: 8rem;
+    margin-bottom: 1rem;
+    letter-spacing: 0.7rem;
+    font-weight: 300;
 }
 
 .brand .name {
-    font-size: 1.1rem;
+    font-size: 1rem;
+    margin: 0.5rem;
 }
 
 .brand .sub {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
 }
 
 .links {
     display: flex;
-    /* justify-content: space-between; */
-    /* text-align: center; */
+        justify-content: center;
 
-}
-
-.link>a {
-    margin: 0 auto;
-    padding: 1rem;
-    text-align: center;
 
 }
 
 .link {
-    width: 12rem;
+    padding: 0.7rem;
+    margin: 1rem;
+    
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #EBE9E9;
+box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.07), 0px 41.7776px 33.4221px rgba(0, 0, 0, 0.0503198), 0px 22.3363px 17.869px rgba(0, 0, 0, 0.0417275), 0px 12.5216px 10.0172px rgba(0, 0, 0, 0.035), 0px 6.6501px 5.32008px rgba(0, 0, 0, 0.0282725), 0px 2.76726px 2.21381px rgba(0, 0, 0, 0.0196802);
+border-radius:  100%;
+
+
+}
+
+.link img {
+width: 30px;
+height: 30px;
+
+}
+
+
+
+body {
+    background-color: #DFDFDF;
+}
+
+.brand {
+    font-family: "Russo One", sans-serif;
+    mix-blend-mode: hard-light;
+    opacity: 0.5;
+    letter-spacing: 0.2rem;
 }
