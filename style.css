@@ -36,14 +36,11 @@ li {
 
 .brand {
     padding: 1rem;
-    margin-bottom: 2rem;
 }
 
 .brand h1 {
     font-size: 8rem;
-    margin-bottom: 1rem;
     letter-spacing: 0.7rem;
-    font-weight: 300;
 }
 
 .brand .name {
