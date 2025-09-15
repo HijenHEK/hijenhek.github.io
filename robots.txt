@@ -1,0 +1,5 @@
+User-agent: *
+Allow: /
+
+# Only one page exists
+Sitemap: https://hijenhek.com/sitemap.xml
